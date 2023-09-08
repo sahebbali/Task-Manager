@@ -1,17 +1,16 @@
-import React, {Fragment, Suspense, lazy} from 'react'
-import MasterLayout from '../components/masterLayout/Master-Layout';
+import React, { Fragment, Suspense, lazy } from "react";
+import MasterLayout from "../components/masterLayout/Master-Layout";
 
-
-const  Create = lazy(()=> import ('../components/Create/Create'))
+import Create from "../components/Create/Create";
 
 function CreatePage() {
   return (
     <Fragment>
-    <MasterLayout>
-          <Create/>
-    </MasterLayout>
-  </Fragment>
-  )
+      <MasterLayout>
+        <Create />
+      </MasterLayout>
+    </Fragment>
+  );
 }
 
-export default CreatePage
+export default CreatePage;

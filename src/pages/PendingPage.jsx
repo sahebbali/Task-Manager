@@ -1,7 +1,7 @@
 import React, { Fragment, Suspense, lazy } from "react";
 import MasterLayout from "../components/masterLayout/Master-Layout";
 
-const Pending = lazy(() => import("../components/Pending/Pending.jsx"));
+import Pending from "../components/Pending/Pending.jsx";
 
 function PendingdPage() {
   return (
